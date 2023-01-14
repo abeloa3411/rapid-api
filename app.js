@@ -19,7 +19,6 @@ const fetchData = () => {
         .map((item) => {
           const { title, thumbnailImage, longURL } = item;
 
-          console.log(item);
           return `
          <div class="card">
             <h1>${title}</h1>
